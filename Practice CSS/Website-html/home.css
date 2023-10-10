@@ -1,0 +1,27 @@
+p {
+	color:blue;
+	font-weight:bold;
+	text-align:center;
+	line-height:2.5;
+}
+
+table {
+	background-color:green;
+}
+
+
+table tr table {
+	background-color:black;
+}
+
+h1 { 
+	color:red;
+	text-align:center;
+}
+
+strong {
+	color:yellow;
+	font-weight:bold;
+	font-size:25px;
+	text-decoration:underline;
+}

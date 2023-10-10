@@ -1,0 +1,80 @@
+.advertise {
+	float: left;
+	width: 50%;
+	height: auto;
+	border: 1px solid black;
+	font-size: 16px;
+	padding: 10px;
+	display: block; /* none, block, inline, inline-block */
+	/*visibility:visible;*/
+}
+
+.link-box {
+	float: left;
+	width: 300px;
+	height: auto;
+	border: 1px solid black;
+	visibility: visible; /* visible,  hidden */
+}
+
+.link-box a {
+	float: left;
+	width: 100%;
+	color: red;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px;
+	box-sizing: border-box;
+	display: block;
+}
+
+.profile {
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	width: 500px;
+	min-width: 400px;
+	max-width: 600px;
+	min-height: 200px;
+	max-height: 300px;
+	border: 2px solid #000;
+	font-size: 18px;
+	color: green;
+	background-color:yellow;
+}
+
+.newtable {
+	float:left;
+	width: 100%;
+}
+
+.newtable td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.newtable td:first-child {
+	background-color: blue;
+}
+
+.newtable tr:last-child {
+	background-color: green;
+}
+
+.alltext p:first-child {
+	font-size: 18px;
+}
+
+.alltext p:nth-child(3) {
+	color: red;
+}
+
+.oddeven {
+	width: 100%;
+}
+.oddeven tr {
+	text-align: center;
+}
+.oddeven tr:nth-child(even) {
+	background:pink;
+}

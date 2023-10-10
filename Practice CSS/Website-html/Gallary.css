@@ -1,0 +1,22 @@
+table{
+	background-color:black;
+}
+
+table tr table{
+	background-color:red;
+}
+
+h1{
+	color:blue;
+	font-weight:bold;
+	text-align:center;
+}
+
+b{
+	color:yellow;
+	font-weight:bold;
+	font-style:normal;
+	font-size:35px;
+	text-align:center;
+	text-decoration:underline;
+}

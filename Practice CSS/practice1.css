@@ -1,0 +1,42 @@
+p{
+	color:black;
+	font-size:20px;
+	font-style:italic;
+	font-family:italic;
+	font-weight:bold;
+	text-indent:none;
+	text-align:justify;
+	text-decoration:none;
+	line-height:1.5;
+	text-transform:upercase;
+	letter-spacing:3px;
+	word-spacing:13px;
+	text-shadow:5px 5px 3px blue;
+}
+
+table{
+	color:green;
+	border:2px solid red;
+	background-color:gray;
+	padding:0px;
+	width:100%;
+	height:200px;
+	font-weight:color;
+	text-align:center;
+	vertical-align:top;
+}
+
+table tr:hover{
+	color:yellow;
+	background-color:black;
+}
+
+.unorder-list{
+	list-style-type:square;
+}
+
+.order-list{
+	color:violet;
+	float:right;
+	list-style-type:upper-latin;
+}

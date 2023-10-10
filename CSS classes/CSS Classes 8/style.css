@@ -1,0 +1,40 @@
+.box{
+	height:150px;
+	width:150px;
+	background-color:purple;
+	position:relative;
+	animation-duration:4s;
+	animation-delay:2s;
+	animation-iteration-count:infinite;
+	animation-direction:reverse;
+	animation-fill-mode:backwards;
+	animation-timing-function:ease;
+	animation-name:emon;
+
+}
+
+@keyframes emon{
+	0%{
+		background-color:red;
+		left:0px;
+		top:0px;
+	}
+
+	25%{
+		background-color:green;
+		left:300px;
+		top:0px;
+	}
+
+	50%{
+		background-color:yellow;
+		left:200px;
+		top:200px;
+	}
+
+	100%{
+		background-color:black;
+		top:200px;
+		left:0px;
+	}
+}

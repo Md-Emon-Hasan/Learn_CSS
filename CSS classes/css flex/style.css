@@ -1,0 +1,21 @@
+
+.container{
+	display: flex;
+	flex-direction: row; /** row,row-reverse,column,column-reverse **/
+	background: red;
+	padding: 10px;
+	/** flex-wrap: wrap; **/
+	height: 600px;
+	align-items: center;
+	justify-content: center;
+}
+
+.item{
+	text-align: center;
+	border: 1px solid #fff;
+	font-size: 30px;
+	height: 100px;
+	margin: 10px;
+	color: #fff;
+	width: 200px;
+}

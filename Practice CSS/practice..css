@@ -1,0 +1,133 @@
+.a1{
+	color:black;
+	font-weight:normal;
+	font-size:20px;
+	height:auto;
+	width:100%;
+	border:2px dashed blue;
+	margin:20px;
+	padding:15px;
+	line-height:1.5;
+	text-align:justify;
+	word-spacing:22px;
+	text-transform:uppercase;
+	font-style:italic;
+	text-shadow:5px 5px 3px red;
+	display:block;
+}
+
+.a2{
+	color:blue;
+	font-weight:bold;
+	font-size:20px;
+	height:auto;
+	width:100%;
+	border:2px dashed blue;
+	margin:20px;
+	padding:15px;
+	line-height:1.5;
+	text-align:justify;
+	word-spacing:22px;
+	text-shadow:5px 5px 3px red;
+	display:none;
+}
+
+.a3{
+	color:blue;
+	font-weight:bold;
+	font-size:20px;
+	height:auto;
+	width:100%;
+	border:2px dashed blue;
+	margin:20px;
+	padding:15px;
+	line-height:1.5;
+	text-align:justify;
+	word-spacing:22px;
+	text-shadow:5px 5px 3px red;
+	visibility:hidden;
+}
+
+.a4{
+	color:blue;
+	font-weight:bold;
+	font-size:20px;
+	height:auto;
+	width:100%;
+	border:2px dashed blue;
+	margin:20px;
+	padding:15px;
+	line-height:1.5;
+	text-align:justify;
+	word-spacing:22px;
+	text-shadow:5px 5px 3px red;
+	visibility:visible;
+}
+
+.color-style {
+	border:1px solid green;
+	height:150px;
+	width:100%;
+	text-align:center;
+}
+
+.color-style td{
+	border:1px solid green;
+}
+
+.color-style td:nth-child(2){
+	background-color:yellow;
+}
+
+.color-style tr:nth-child(2){
+	background-color:red;
+	/*text-shadow:4px 5px 1px red;*/
+}
+
+#box{
+	float:left;
+	margin:20px;
+	padding:20px;
+	height:100px;
+	width:100px;
+	background-color:blue;
+}
+
+#box:hover{
+	color:red;
+	background-color:green;
+	box-shadow:5px 6px 6px 9px red;
+}
+
+#box a{
+	color:yellow;
+	font-size:30px;
+	font-style:italic;
+	text-decoration:none;
+}
+
+.oddeven{
+	text-align:center;
+	height:auto;
+	width:300px;
+	clear:both;
+}
+
+.oddeven tr:nth-child(even){
+	background-color:rgb(125,96,249);
+	text-weight:bold;
+}
+
+textarea{
+	float:center;
+	max-height:300px;
+	min-height:150px;
+	max-width:250;
+	min-width:100px;
+	border:1px solid black;
+	color:green;
+	font-size:25px;
+	font-style:italic;
+	background-color:gray;
+	padding:50px;
+}	

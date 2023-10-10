@@ -1,0 +1,26 @@
+*{
+	padding:0;
+ 	margin:0;
+}
+
+.flex-container{
+	display:flex;
+	background-color:red;
+	flex-wrap:wrap;
+	flex-direction:center;/* column,row,column-revarse,row-revarse,center */
+	justify-content:center;/*flex-start,flex-end,space-around,space-between,center */
+	align-items:center;
+	height:600px;
+	width:100%;
+}
+
+.flex-container .flex-box{
+	height:50px;
+	width:150px;
+	font-size:30px;
+	margin:10px;
+	padding:20px;
+	color:white;
+	border:1px solid white;
+	text-align:center;
+}

@@ -1,0 +1,28 @@
+h1 {
+	color: #1fb834;
+	font-size: 25px;
+	text-align: center;
+	background-color: gray;
+}
+
+p {
+	color: rgb(235, 129, 215);
+	/*color: rgba(0,0,0, 0.62);*/
+	/*color: #eb81d7;*/
+	font-size: 14px; /* px = pixel size */
+	font-weight: normal; /* bold, normal, 300. 400, 500, 700, 900 */
+	font-style: italic; /* italic, normal */
+	font-family: Arial;
+	text-align: justify; /* left, right, center, justify */
+	text-decoration: underline; /* underline, overline, none */
+	text-indent: 100px;
+	line-height: 1.5; /* point like 1.5 or pixel like 20px */
+}
+
+p span {
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: normal;
+}
+/* comment */

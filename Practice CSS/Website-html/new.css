@@ -1,0 +1,97 @@
+p{
+	color:black;
+	font-size:16px;
+	font-weight:normal;
+	font-style:italic;
+	font-family:italic;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:50px;
+	line-height:28px;
+	letter-spacing:5px;
+	word-spacing:10px;
+	text-transform:uppercase;
+	text-shadow:3px 4px 3px red;
+}	
+
+.aaa{
+	float:left;
+	list-style-type:upper-roman;
+}
+
+.bbb{
+	float:right;
+	list-style-type:square;
+}
+
+table{
+	border:5px solid red;
+	color:green;
+	background-color:yellow;
+	height:300px;
+	width:100%;
+	
+}
+
+th:hover{
+	color:blue;
+	background-color:pink;
+}
+
+tr:hover{
+	color:green;
+	background-color:black;
+}
+
+.gallary{
+	color:rgba(139, 252, 0, 1);
+	background-color:blue;
+	font-weight:bold;
+	text-decoration:none;
+	border:1px solid rgba(139, 252, 0, 1);
+	padding:20px;
+	margin:50px;
+	box-shadow:4px 4px 10px 9px red;
+}
+
+.gallary:hover{
+	color:blue;
+	background-color:black;
+}
+.gallary:focus{
+	color:black;
+	background-color:white;
+}
+.gallary:active{
+	color:red;
+	background-color:pink;
+}
+.gallary:visited{
+	color:yellow;
+	background-color:gray;
+}
+#xyz{
+	color:yellow;
+	border:1px solid green;
+	background-color:blue;
+	padding:20px;
+	margin:50px;
+	text-decoration:none;
+	box-shadow:4px 4px 10px 9px yellow;
+}
+#xyz:hover{
+	color:blue;
+	background-color:black;
+}
+#xyz:focus{
+	color:black;
+	background-color:white;
+}
+#xyz:active{
+	color:red;
+	background-color:pink;
+}
+#xyz:visited{
+	color:yellow;
+	background-color:gray;
+}

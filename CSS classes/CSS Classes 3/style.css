@@ -1,0 +1,74 @@
+
+.first {
+	text-transform: capitalize; /*capitalize, uppercase, lowercase*/
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 5px;
+	word-spacing: 20px;
+	text-shadow: 4px 5px 6px red;
+}
+
+.link {
+	float: left;
+	text-decoration: none;
+	color: black;
+	background: gray;
+	border: 2px solid green;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	box-shadow: 2px 2px 15px 10px rgba(0,0,0, 0.3);
+}
+
+.link:hover {
+	color: red;
+	background: black;
+}
+
+.link:focus {
+	color: white;
+	background: black;
+}
+
+.link:active {
+	color: white;
+	background: black;
+}
+
+.link:visited {
+	color: pink;
+	background: blue;
+}
+
+.list {
+	float: left;
+	list-style-type: none; /*none, circle,  square*/
+}
+.order-list {
+	float: left;
+	list-style-type: upper-roman; /*none, upper-roman,  lower-alpha*/
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	border: 1px solid black;
+	padding: 10px;
+	height: auto;
+	text-align: center;
+	vertical-align: top; /* top, bottom, middle */
+}
+
+/*table th:hover, table td:hover {
+	color: #fff;
+	background: #000;
+}*/
+
+table tr:hover {
+	color: #fff;
+	background: #000;
+}

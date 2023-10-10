@@ -1,0 +1,39 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+ol li{
+	list-style-type:none;
+	float:left;
+	background-color:black;
+}
+
+ol li a{
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:12px 30px;
+	display:inline-block;
+	color:#fff;
+}
+
+.dropdown-contact{
+	display:none;
+}
+
+.dropdown-contact a{
+	display:block;
+	color:green;
+}
+
+.dropdown-contact a:hover{
+	background-color:red;
+	color:black;
+	font-weight:bold;
+}
+
+.dropdown:hover .dropdown-contact{
+	display:block;
+}

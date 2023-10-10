@@ -1,0 +1,63 @@
+.imon {
+	color: red;
+	font-style: italic;
+	text-align: center;
+}
+
+#bangladesh {
+	color: blue;
+	font-weight: 700;
+}
+
+#imon {
+	color: green;
+}
+
+.box-model {
+	/*border-width: 1px;
+	border-color: red;
+	border-style: solid;*/ /* solid, dashed, dotted, double */
+	float: left;
+	width: 800px;
+	height: 300px;
+	border: 1px dashed blue;
+	margin: 50px;
+	padding: 10px;
+	outline: 2px solid black;
+}
+
+.fixed-box {
+	float: right;
+	height: auto;
+	width: 30%;
+	border: 1px solid green;
+	background-color: #ddd;
+	padding: 15px;
+	margin: 10px;
+	color: blue;
+	font-size: 20px;
+}
+
+.style-box {
+	float: left;
+	width: 60%;
+	height: auto;
+	background-color: #777777;
+	color: #fff;
+	text-align: justify;
+	margin-left: 40px;
+	margin-top: 200px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	border-top: 5px solid green;
+	border-left: 3px solid red;
+}
+
+#circle {
+	float: left;
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	/*border-radius: 100%;*/
+	border-radius: 20px;
+}

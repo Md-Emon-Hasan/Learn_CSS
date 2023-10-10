@@ -1,0 +1,29 @@
+
+
+.bd{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(red,green,blue);
+	margin: 20px;
+}
+
+.bd1{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(to right bottom,red,green,blue);
+	margin: 20px;
+}
+
+.bd2{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(red 45%,blue 45%);
+	margin: 20px;
+}
+
+.bd2{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(rgba(255,0,0,0.7),rgba(255,255,0,0.7));
+	margin: 20px;
+}

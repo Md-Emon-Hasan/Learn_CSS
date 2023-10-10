@@ -1,0 +1,50 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.box{
+	float: left;
+	width: 25%;
+	height: auto;
+	border: 5px solid green;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+img{
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+.box:hover{
+	border: 5px solid purple;
+	transition: 1s;
+}
+
+.box .text{
+	float: left;
+	text-align: center;
+	position: absolute;
+	color: rgba(0,0,0,0);
+	background: rgba(48,48,48,0.5);
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 0%;
+	width: 100%;
+}
+
+.box:hover .text{
+	float: left;
+	color: red;
+	top: 0px;
+	bottom: 0px;
+	height: 100%;
+	width: 100%;
+	transition: all 0.9s;
+}
+
